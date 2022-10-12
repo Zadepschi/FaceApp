@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    background: #050505;
+    width: calc(100% - 33px);
+  }
+  
+  canvas {
+    position: absolute;
+  }
+  .container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .result-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .result-container > div {
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    margin: 5px 0;
+    color: white;
+    text-transform: capitalize;
+  }
+  #age {
+    background: #be64be;
+  }
+  #emotion {
+    background: #31E1F7;
+  }
+  #gender {
+    background: #FA2FB5;
+  }
+  video {
+    width: 100%;
+  }
+  header {
+    display: flex;
+    justify-content: center;
+    background: #c928bb;
+    color: white;
+    width: 100%;
+    font-size: 2rem;
+    padding: 1rem;
+  }
